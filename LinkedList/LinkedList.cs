@@ -106,7 +106,7 @@ namespace FullyUnderstandingLinkedLists.LinkedList
         // list in order starting with the first node in the linked list. When the
         // loop is done all of the data in the linked list will be displayed to the 
         // console.
-        public void DisplayFirst()
+        public void DisplayList()
         {
             // This line is responsible for letting the user know that the function is
             // running and that the while loop is currently iterating through the 
