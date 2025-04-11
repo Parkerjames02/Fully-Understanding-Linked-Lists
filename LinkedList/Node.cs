@@ -21,7 +21,7 @@ namespace FullyUnderstandingLinkedLists.LinkedList
 
         // This public node variable called "Next" is the variable that points to the
         // next node in the linked list. The ? at the end of Node just means that
-        // that variable can either be set to a reference of another node or null. We
+        // that variable can either be set to a reference to the next node or null. We
         // do this because the last nodes pointer will always be null and we want
         // the program to know that it is intended. This variable can also be set
         // and received.
@@ -29,7 +29,7 @@ namespace FullyUnderstandingLinkedLists.LinkedList
 
         // This public void function simply displays the data variable to the
         // console. This function will be used in another function that will be
-        // defined in the linked list class.
+        // defined in the linked list class (LinkedList.cs file).
         public void DisplayNode()
         {
             Console.WriteLine(Data);
